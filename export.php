@@ -26,7 +26,7 @@ if ( ! class_exists( 'AC_Reports' ) ) {
 
 // Grab Report
 $report_lib = new AC_Reports();
-$report = sprintf( '%s', $_GET['report'] );
+$report = sanitize_text_field( $_GET['report'] );
 if ( ! method_exists( $report_lib, $report ) ) {
 	die( 'Invalid report requested' );
 }

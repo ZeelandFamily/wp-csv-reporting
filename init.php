@@ -2,7 +2,7 @@
 /*
 Plugin Name: CSV Reporting
 Plugin URI: https://github.com/andrej1c/wp-csv-reporting
-Description: This plugin allows developers to create add custom reports that export the Excel-friendly CSV 
+Description: This plugin allows developers to quickly create custom reports that export to Excel-friendly CSV by passing queries to $wpdb->get_results()
 Author: Andrej Ciho
 Version: 0.1
 */

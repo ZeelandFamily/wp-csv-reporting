@@ -3,7 +3,7 @@ WordPress Custom Reporting to CSV
 
 *Creating Reports*
 
-Once the plugin is active you can add your reports to the reports.php file. Simply add a method to the AC_Reports class, for example
+Once the plugin is active you can add your reports to the reports.php file, following the example of the sample user report. Simply add a method to the AC_Reports class, for example:
 
 ```
 function all_wp_options() {

@@ -18,8 +18,10 @@ class AC_Reporting_Admin {
 	
 	static public function report_list() {
 		?>
-<h2>Reports</h2>
-<p><a target="_blank" href="<?php echo plugin_dir_url( __FILE__ ); ?>export.php?report=user_list">List of Users</a></p>
+<div class="wrap">
+	<h2>Reports</h2>
+	<p><a target="_blank" href="<?php echo plugin_dir_url( __FILE__ ); ?>export.php?report=user_list">List of Users</a></p>
+</div>
 		<?php
 	}
 }
